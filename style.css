@@ -10,10 +10,52 @@ body {
 header {
   background: lightseagreen;
   color: white;
-  padding: 30px
+  padding: 30px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-nav {
-  float: right;
+a {
   text-decoration: none;
+  color: inherit;
+  padding: 10px;
+}
+
+main {
+  border: 10px solid salmon;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  border: 10px solid black;
+  max-width:50%;
+  height: auto;
+  padding: 20px;
+  flex:1;
+}
+
+main div {
+  border: 10px solid black;
+  margin: 20px;
+  flex: 3;
+}
+
+section {
+  border: 10px solid black;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+footer {
+  background: lightseagreen;
+  color: white;
+  justify-content: center;
+  padding: 30px;
+  display: flex;
 }
