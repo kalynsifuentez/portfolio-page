@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0%;
+}
+
+header {
+  background: lightseagreen;
+  color: white;
+  padding: 30px
+}
+
+nav {
+  float: right;
+  text-decoration: none;
+}
