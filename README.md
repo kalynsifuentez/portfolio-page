@@ -7,7 +7,7 @@ Designed web page to access my most recent web editing accomplishments complete 
 
 ## Code Source 
 
-HTTPS GitHub Repository: https://github.com/kalynsifuentez/challenge-1.git
+HTTPS GitHub Repository: https://github.com/kalynsifuentez/portfolio-page.git
 
 Live URL: https://kalynsifuentez.github.io/portfolio-page/
 
