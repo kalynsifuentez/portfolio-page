@@ -6,10 +6,8 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!-- Assign an ID (header) -->
     <header>
       <h1>Kalyn Sifuentez</h1>
-      <!-- Assign an ID (nav) -->
       <nav>
         <a href="#About-Me">About Me</a>
         <a href="#Contact">Contact</a>
@@ -17,35 +15,52 @@
       </nav>
     </header>
     <main>
-    <img
-      src="/Users/kalyn/portfolio-page/assets/kalyn-s.png"
-      alt="new website pic"
-    />
-    <!-- Assign an ID (main text) -->
-    <div>
-      <div id="About Me">
-        <h2><strong>ABOUT ME</strong></h2>
-        <p>
-          Full-time marketing professional, and part time web-developer,
-          currently enrolled with UTSA to achieve a full-stack web-development
-          certification. By achieving this certificate, I will have the
-          skill-set to update and create new cutting edge technlogy.
-        </p>
-        <p>Expected Graduation: May 2024.</p>
+      <div class="image-container">
+        <img src="./assets/kalyn-s.png" alt="new website pic" />
       </div>
-      <div id="Contact">
-        <h2>CONTACT</h2>
-        <h3><strong>PHONE</strong>: 830-391-3066</h3>
-        <h3><strong>EMAIL</strong>: kalynsifuentez@gmail.com</h3>
+      <div>
+        <div id="About-Me">
+          <h2><strong>ABOUT ME</strong></h2>
+          <p>
+            Full-time marketing professional, and part time web-developer,
+            currently enrolled with UTSA to achieve a full-stack web-development
+            certification. By achieving this certificate, I will have the
+            skill-set to update and create new cutting edge technlogy.
+          </p>
+          <p>Expected Graduation: May 2024.</p>
+        </div>
+        <div id="Contact">
+          <h2>CONTACT</h2>
+          <h3><strong>PHONE</strong>: 830-391-3066</h3>
+          <h3><strong>EMAIL</strong>: kalynsifuentez@gmail.com</h3>
+        </div>
       </div>
-    </div>
     </main>
-    <!-- Assign an ID (porfolio) -->
     <section id="Portfolio">
-      <h2>PORTFOLIO</h2>
-      <h3><strong>Portfolio Example 1</strong></h3>
-      <h3><strong>Portfolio Example 2</strong></h3>
-      <h3><strong>Portfolio Example 3</strong></h3>
+      <div><h2>PORTFOLIO</h2></div>
+      <div class="work">
+        <div class="big-image">
+          <p>
+            <a href="https://kalynsifuentez.github.io/challenge-1/" target="_blank"
+          >Portfolio Example 1</a
+            >
+          </p>
+          <img
+            src="./assets/refactor-horiseon-seo.png"
+            alt="refactor-horiseon-seo"
+          />
+        </div>
+        <div class="small-image-container">
+          <div class="small-image">
+            <p>Portfolio Example 2</p>
+            <img src="./assets/example-1.jpg" alt="example-1" />
+          </div>
+          <div class="small-image">
+            <p>Portfolio Example 3</p>
+            <img src="./assets/example-2.jpg" alt="example-2" />
+          </div>
+        </div>
+      </div>
     </section>
     <footer>
       <p>Made with ❤️</p>
